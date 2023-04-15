@@ -247,6 +247,7 @@ Tableu 4 (Final):
 ```
 
 
+https://college.cengage.com/mathematics/larson/elementary_linear/4e/shared/downloads/c09s4.pdf
 
 
 
