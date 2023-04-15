@@ -104,7 +104,7 @@ Ex. The $x$ column has -25, therefore we choose that one
 
 __Selecting a Pivot Row__:
 
-Choose pivot row that contains the smallest *test ratio*, ration of each constraint to it's respective coefficent in the pivot column
+Choose pivot row that contains the smallest *test ratio*, ratio of each constraint to it's respective coefficent in the pivot column, that is **NON-NEGATIVE**. If all ratios are negative, the problem is unbounded.
 
 Ex.
 - Row1 test ratio = 12/2 = 6 !!
