@@ -9,7 +9,7 @@ We will be looking at some algorithms for solving problems in 2D plane.
 * Input: 
 	- Set of points ${p_1, p2,...}$, 
 	- Each point is $p_i = (x_i, y_i)$
-	- Ex: Polygon $P$ with n-vertices is represented by a sequence of vertices in the order they appear on the boundary (line or curve that forms shape). $\<p_0, p_1, p_2, ... , p_{n-1}\>$. 
+	- Ex: Polygon $P$ with n-vertices is represented by a sequence of vertices in the order they appear on the boundary (line or curve that forms shape). $[p_0, p_1, p_2, ... , p_{n-1}]$. 
 
 
 ### Line-segment properties
