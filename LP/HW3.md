@@ -1,4 +1,17 @@
 
+## Question 1
+
+Constraints
+1. ∃i,j (died(pi) < born(pj))
+2. ∃i,j (born(pi) ≤ died(pj) ∧ died(pi) ≥ born(pj)) ∨ (born(pj) ≤ died(pi) ∧ died(pj) ≥ born(pi))
+
+1. The death date of person pi is earlier than the birth date of person pj.
+2. The life spans of persons pi and pj overlap at least partially. This can happen in two ways: 
+	- The birth date of person pi is earlier than or equal to the death date of person pj and the death date of person pi is later than or equal to the birth date of person pj; 
+	- or the birth date of person pj is earlier than or equal to the death date of person pi and the death date of person pj is later than or equal to the birth date of person pi.
+
+
+
 ## Question 2
 
 ### 2.1
@@ -213,6 +226,20 @@ $x = 322, y = 764, z=484, Profit = 75860$
 
 
 ### 2.4
+
+An example of a probabilistic model where the probability of a state depends only on that of the previous state would be a
+		
+
+a. a Markov model
+		
+
+b. a Turing model
+		
+
+c. a Gaussian model
+		
+
+d. a closed model
 
 
 https://college.cengage.com/mathematics/larson/elementary_linear/4e/shared/downloads/c09s4.pdf
