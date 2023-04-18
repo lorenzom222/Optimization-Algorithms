@@ -1,4 +1,5 @@
 # Divide and Conquer: Numbers
+Reference: https://people.eecs.berkeley.edu/~vazirani/algorithms/chap2.pdf
 
 ## Multiplication
 
@@ -27,7 +28,10 @@ Given 2 $n$-bit integers, $x$ and $y$. How do we compute the product of these 2?
 	- Overall Runtime: $T(n) = 4T(n/2)+ O(n)$, *recurrence relation*
 
 #### Gauss Trick
-
 - $x_l y_l, x_r y_r$ = $(x_l + x_r) (y_l+ y_r)$ 
 - $x_l y_r, x_r y_l$ = $(x_l + x_r) (y_l+ y_r) - x_l y_l- x_r y_r$ 
 
+Using this relationship, this reduces the number of products being done (only 3 now), so the runtime improves now with only 3 *recurrence relation*. 
+
+- Gauss Runtime: $T(n) = 3T(n/2)+ O(n)$, *recurrence relation*
+- $O(n)$
