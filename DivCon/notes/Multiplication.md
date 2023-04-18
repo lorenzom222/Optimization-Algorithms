@@ -1,7 +1,7 @@
 # Divide and Conquer: Numbers
 Reference: https://people.eecs.berkeley.edu/~vazirani/algorithms/chap2.pdf
 
-## Multiplication
+## Bit-Product
 
 Given 2 $n$-bit integers, $x$ and $y$. How do we compute the product of these 2?
 
@@ -34,4 +34,11 @@ Given 2 $n$-bit integers, $x$ and $y$. How do we compute the product of these 2?
 Using this relationship, this reduces the number of products being done (only 3 now), so the runtime improves now with only 3 *recurrence relation*. 
 
 - Gauss Runtime: $T(n) = 3T(n/2)+ O(n)$, *recurrence relation*
-- $O(n)$
+- $O(n^{1.59})$
+
+
+## Matrix Multiplication
+### Naive
+- The product $Z = X • Y$ is the dot product. Each entry $z_{i,j}$ is the product of each $i$th row of $X$ and $j$th colunm of $Y$.
+
+
