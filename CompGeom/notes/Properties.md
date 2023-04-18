@@ -14,7 +14,8 @@ We will be looking at some algorithms for solving problems in 2D plane.
 
 ### Line-segment properties
 
-**Convex combination** 
+#### Convex combination
+
 	* Weighted average of two points. 
 	- Weights are non-negative and sum to 1. 
 	- Resulting point p3 lies on the line segment connecting p1 and p2. 
@@ -32,13 +33,13 @@ We will be looking at some algorithms for solving problems in 2D plane.
 
 - p3 is any point that lies on the line between p1 and p2, and is not outside of the line segment defined by p1 and p2. 
 
-**Line segment:** 
+#### Line segment
 	* Given two points, the **line segment** between them is the set of convex combinations of p1 and p2.
 	- **Endpoint** are p1 and p2.
 	- **Directed segment** is when we care about the direction from p1 and p2. p1 can be the start and p2 the end.
 	- If p1 is at **origin**, then we can treat as vector
 
-**Questions**
+#### Questions
 
 1. If we have 2 *directed segments* (p0 to p1 \& p0 to p2), is p0 to p1 clockwise from p0 to p2 wrt to their common endpoint p0?
 
@@ -46,8 +47,7 @@ We will be looking at some algorithms for solving problems in 2D plane.
 
 3. Do (p1, p2) \& (p3, p4) intersect?
 
-
-**Cross Product**
+#### Cross Product
 
 This is used to determine the orientation of a pair of vectors p1 and p2.
 
@@ -75,7 +75,7 @@ $det(A) = x_1 * y_2 - x_2 * y_1$
 3. If the determinant is **zero**, then the vectors are *colinear*, and lie either in the same or opposite direction.
 
 
-*Determining Clockwise Direction*
+#### Determining Clockwise Direction
 
 Next we wish to determine whether the direction of a line segment is in the **clockwise** or **counter-clockwise** direction. In other words, given $p_0$ to $p_1$ and $p_0$ to $p_2$, which direction is $p_2$ in from $p_1$ wrt $p_0$. 
 
@@ -89,7 +89,7 @@ $p_1' = (x_1', y_1')$ where $x_1' = x_1 - x_0$. Similar for $p_2$.
 
 3. Check sign: Postive? $p_0$ to $p_1$ **clockwise** from $p_0$ to $p_2$. Negative? $p_0$ to $p_1$ **counter-clockwise** from $p_0$ to $p_2$.
 
-*Determining Left or Right Direction*
+#### Determining Left or Right Direction
 
 
 
