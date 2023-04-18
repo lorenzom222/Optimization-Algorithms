@@ -87,9 +87,24 @@ $p_1' = (x_1', y_1')$ where $x_1' = x_1 - x_0$. Similar for $p_2$.
 
 2. Cross-product: $p_1 &times; p_2 = (x_1-x_0) (y_2-y_0) - (x_2-x_0) (y_1-y_0)$
 
-3. Check sign: Postive? $p_0$ to $p_1$ **clockwise** from $p_0$ to $p_2$. Negative? $p_0$ to $p_1$ **counter-clockwise** from $p_0$ to $p_2$.
+3. Check sign: Postive? $p_0$ to $p_2$ **clockwise** from $p_0$ to $p_1$. Negative? $p_0$ to $p_2$ **counter-clockwise** from $p_0$ to $p_1$.
 
-#### Determining Left or Right Direction
+#### Determining Left or Right Turn
+
+From determining the direction of the line segements about the origin (**clockwise** or **counterclockwise**), we can use this to see where we turn from the directed segment when reach $p_1$.
+
+1. if $p_0$ to $p_2$ is **clockwise** relative to $p_0$ to $p_1$, then when we reach $p_1$ we would left to $p_2$
+
+
+2. if $p_0$ to $p_2$ is **counter-clockwise** relative to $p_0$ to $p_1$, then when we reach $p_1$ we would right to $p_2$
+
+3. else, all vectors are colinear
+
+#### Determining whether 2 line segments intersect
+
+
+
+
 
 
 
