@@ -41,5 +41,6 @@ Using this relationship, this reduces the number of products being done (only 3 
 ### Naive
 - The product $Z = X • Y$ is the dot product. Each entry $z_{i,j}$ is the product of each $i$ th row of $X$ and $j$ th colunm of $Y$.
 
-
+### Divide and Conquer
+- Split into submatrices
 
