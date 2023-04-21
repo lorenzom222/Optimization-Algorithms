@@ -1,3 +1,4 @@
+## Guidelines
 Bottom-up DP:
 * When the problem has a well-defined base case or cases that can be solved directly.
 * When the subproblems can be solved independently of each other and have no interdependencies.
