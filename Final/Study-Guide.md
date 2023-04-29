@@ -39,6 +39,21 @@ $DP = \{S(p_1), S(p_2), ..., S(p_n)\}$ where $DP$ is the dynamic programming tab
 
     $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
 
+```math
+LCS[i,j] =
+\begin{cases}
+0 & \text{if } i = 0 \text{ or } j = 0 \\
+LCS[i-1,j-1] + 1 & \text{if } X_i = Y_j \\
+\max(LCS[i-1,j], LCS[i,j-1]) & \text{otherwise}
+\end{cases}
+```
+
+**Here is some math!**
+
+```math
+\sqrt{3}
++ 2
+```
 
 3. Give an efficient algorithm to solve the problem:
     - Use dynamic programming techniques such as tabulation to fill in a table of size $(m+1) \times (n+1)$ with the solutions to these subproblems.
