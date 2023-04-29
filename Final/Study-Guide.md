@@ -37,6 +37,9 @@ $DP = \{S(p_1), S(p_2), ..., S(p_n)\}$ where $DP$ is the dynamic programming tab
     - Express the solution to the original problem in terms of the solutions to these subproblems using the following recurrence relation:
     $$LCS[i,j] = \begin{cases} 0 & \text{if } i = 0 \text{ or } j = 0 \\ LCS[i-1,j-1] + 1 & \text{if } X_i = Y_j \\ \max(LCS[i-1,j], LCS[i,j-1]) & \text{otherwise}\end{cases}$$
 
+    $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
+
+
 3. Give an efficient algorithm to solve the problem:
     - Use dynamic programming techniques such as tabulation to fill in a table of size $(m+1) \times (n+1)$ with the solutions to these subproblems.
     - The entry in the bottom-right corner of the table, $LCS[m,n]$, gives us the length of the LCS of $X$ and $Y$. We can also use this table to reconstruct the actual LCS by tracing back through the table from the bottom-right corner
