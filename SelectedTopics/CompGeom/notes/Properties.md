@@ -1,4 +1,8 @@
 # Computational geometry
+https://math.stackexchange.com/questions/1607358/match-off-points-into-n-red-blue-pairs-with-straight-lines-connecting-pairs-s
+https://community.wvu.edu/~krsubramani/courses/sp06/cg/qen/hw3sol.pdf
+https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwibi4jz-Lb-AhVNF1kFHVm_AFMQFnoECCMQAQ&url=https%3A%2F%2Fwww.combinatorics.org%2Fojs%2Findex.php%2Feljc%2Farticle%2Fdownload%2Fv19i1p33%2Fpdf%2F&usg=AOvVaw3Wr23YSNuWc2XRq0EPwCmV
+
 - Algorithms for solving geometric problems.
 - Applications: Graphics, robotics, modeling, etc
 
