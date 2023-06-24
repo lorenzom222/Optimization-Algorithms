@@ -92,7 +92,7 @@ $P(x) = p_0 + p_1x + p_2x^2 + ... + p_dx^d$
 3. Then convert C from Value to Coefficent representation
 
 
-![Flowchart](/figs/flowchart.png)
+![Flowchart](figs/flowchart.png)
 
 
 But the issue is:
